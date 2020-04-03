@@ -69,7 +69,7 @@ org 100h
            int 21h
            jmp stop
 
-     not_palindrome:                    ; "is_palindrome" label imprime el mensaje cuando no es palindrome
+     not_palindrome:                    ; "not_palindrome" label imprime el mensaje cuando no es palindrome
         mov ah, 9
         mov dx, offset msg_not
         int 21h
